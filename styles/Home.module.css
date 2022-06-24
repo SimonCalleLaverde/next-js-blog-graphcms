@@ -1,19 +1,14 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));/*25rem, 1fr*/
+  grid-gap: 3rem;
+}
+
 .title h1 {
-  color: rgb(39, 39, 39);
+  color:rgba(39, 39, 39, 1);/*rgb(39, 39, 39)*/
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5rem;
   font-size: 2rem;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 3rem;
-}
-
-@media screen and (max-width: 768px) {
-  .main {
-  }
 }

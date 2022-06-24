@@ -1,14 +1,8 @@
 .card {
   margin-top: 5rem;
+  box-shadow: 15px 20px 40px rgba(216, 211, 211, 0.4);
   border-radius: 2rem;
   overflow: hidden;
-  box-shadow: 15px 20px 40px rgba(216, 211, 211, 0.4);
-}
-.card h2 {
-  padding: 0.5rem 0rem;
-}
-.card h3 {
-  font-size: 1rem;
 }
 
 .imgWrapper {
@@ -17,14 +11,25 @@
   height: 20vh;
 }
 
-.card img:hover {
-  opacity: 0.8;
+.card h2 {
+  padding: 0.5rem 0rem;
 }
-
+.card h3 {
+  font-size: 1rem;
+}
 .card img {
   object-fit: cover;
   cursor: pointer;
   transition: all 0.5s ease;
+}
+.card img:hover {
+  opacity: 0.3;
+}
+
+.caption {
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .details {
@@ -32,12 +37,6 @@
   align-items: center;
   justify-content: space-between;
   margin: 0.5rem 0rem;
-}
-
-.text {
-  padding: 1rem 3rem;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .author {
