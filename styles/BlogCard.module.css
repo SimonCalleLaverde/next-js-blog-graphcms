@@ -5,17 +5,24 @@
   overflow: hidden;
 }
 
+/* If "Image" component is used // As it is in github's live-code example, and this one */
 .imgWrapper {
-  position: relative;
+  position: relative;/*Important for "layout='fill'" which uses a "position:absolute" "<span><span/>" inside*/
   width: 100%;
-  height: 20vh;
+  height: 25vh;/*20vh*/
 }
+/* If "Image" component is not used // As finally used in video tutorial example */
+/*.imgWrapper img {
+  height: 25vh;
+  width: 100%;
+}*/
 
 .card h2 {
   padding: 0.5rem 0rem;
+  font-size:0.9rem;
 }
 .card h3 {
-  font-size: 1rem;
+  font-size:0.7rem;/*1rem*/
 }
 .card img {
   object-fit: cover;
@@ -23,7 +30,7 @@
   transition: all 0.5s ease;
 }
 .card img:hover {
-  opacity: 0.3;
+  opacity:0.7;/*0.3*//*0.8*/
 }
 
 .caption {
