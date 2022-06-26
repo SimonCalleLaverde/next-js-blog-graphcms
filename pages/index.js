@@ -43,7 +43,7 @@ export async function getStaticProps() {
   }
 };
 
-// Homepage Component // Passing "posts" As Props // Passing Down Data In "BlogCard"
+// Home Page Component // Passing "posts" As Props // Passing Down Data In "BlogCard"
 export default function Home({ posts }) {
   return (
     <div className={styles.container}>

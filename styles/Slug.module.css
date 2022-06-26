@@ -1,19 +1,25 @@
+.cover {
+  width: 100%;
+  height:45vh;/*30vh*/
+  object-fit: cover;
+}
+
 .title {
   padding-top: 1rem;
 }
 
 .title h2 {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top:3rem;/*1rem*/
+  padding-bottom:1rem;/*2rem*/
 }
 
-.authdetails {
+.authorDetails {
   display: flex;
   /*flex-direction: row;*/
   align-items: center;
 }
 
-.authdetails img {
+.authorDetails img {
   width: 3rem;
   height: 3rem;
   margin-right: 1rem;
@@ -21,20 +27,14 @@
   object-fit: cover;
 }
 
-.authdetails h6 {
+.authorDetails h6 {
   font-weight: 500;
 }
 
-.authtext {
+.authorText {
   display: flex;
   flex-direction: column;/*Could "row" I Guess*/
   align-items: left;/*Could "justify-content:start" I Guess*/
-}
-
-.cover {
-  width: 100%;
-  height: 30vh;
-  object-fit: cover;
 }
 
 .blog code {

@@ -9,7 +9,7 @@
 .imgWrapper {
   position: relative;/*Important for "layout='fill'" which uses a "position:absolute" "<span><span/>" inside*/
   width: 100%;
-  height: 25vh;/*20vh*/
+  height:75vh;/*25vh*//*20vh*/
 }
 /* If "Image" component is not used // As finally used in video tutorial example */
 /*.imgWrapper img {
